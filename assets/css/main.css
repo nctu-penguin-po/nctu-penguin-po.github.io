@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic");
 
@@ -3305,11 +3305,12 @@
 /* Banner */
 
 	#banner {
-		background-color: #58B2DC;
+		background-image: url("auv1.jpg");
+		background-size: 100% 100%;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: left;
 		cursor: default;
-		padding: 10em 4em 9em 4em;
+		padding: 20em 4em 9em 4em;
 	}
 
 		#banner input, #banner select, #banner textarea {
@@ -4546,3 +4547,69 @@
 			}
 
 		}
+	
+/* Team Section */
+#team {
+	color: #fff;
+	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	background-size: cover;
+}
+#team .overlay {
+	padding: 120px 0 80px 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+#team h2, #team p {
+	color: #fff;
+}
+#team hr {
+	background: #fff;
+}
+#team h3 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 5px 0;
+}
+#team img {
+	width: 160px;
+	height: 180px;
+}
+#team .thumbnail {
+	background: transparent;
+	border: 0;
+}
+#team .thumbnail .team-img {
+	display: inline-block;
+	position: relative;
+}
+#team .thumbnail .team-img:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	bottom: 8px;
+	left: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#team .thumbnail .caption {
+	padding-top: 10px;
+}
+#team .thumbnail .caption p {
+	color: rgba(255,255,255,0.7);
+	padding: 0 10px;
+	font-size: 15px;
+}
+/* Call Reservation Section */
+#call-reservation {
+	padding: 90px 0;
+	color: #fff;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8eb640+50,779936+100 */
+	background: rgb(142,182,64); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
+}
+	font-size: 15px;
+}
